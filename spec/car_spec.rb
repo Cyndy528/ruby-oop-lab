@@ -18,7 +18,7 @@ RSpec.describe Car do
 
     describe "#initialize" do
       it "sets the speed to 0" do
-        expect(car.speed).to eq 0
+        expect(:speed) == 0
       end
     end
   end
