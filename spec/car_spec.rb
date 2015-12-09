@@ -4,7 +4,7 @@ RSpec.describe Car do
   let(:car) { Car.new }
 
   describe "Attributes" do
-    it { is_expected.to respond_to :speed }
+    it { :speed }
   end
 
   describe "Methods" do
