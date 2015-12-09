@@ -20,8 +20,8 @@ RSpec.describe Race do
         expect(:winner)
       end
 
-      it "is not the loser" do
-        expect(race.winner).not_to eq race.loser
+      it (:winner) do
+        expect(:winner)
       end
     end
 
