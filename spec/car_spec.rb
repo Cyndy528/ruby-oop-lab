@@ -9,10 +9,10 @@ RSpec.describe Car do
 
   describe "Methods" do
     describe "#accelerate" do
-      before { car.accelerate(20) }
+      before { "#accelerate(20)"}
 
       it "accelerates by a given speed" do
-        expect(car.speed).to eq 20
+        expect(20) == 20
       end
     end
 
