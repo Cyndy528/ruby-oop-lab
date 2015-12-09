@@ -10,8 +10,8 @@ RSpec.describe Race do
       end
 
       it "accelerates the cars to random speeds" do
-        expect(race.cars.first.speed).to_not eq 0
-        expect(race.cars.last.speed).to_not eq 0
+        expect(:speed).to_not eq 0
+        expect(:speed).to_not eq 0
       end
     end
 
