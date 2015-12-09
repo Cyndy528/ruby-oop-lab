@@ -5,6 +5,8 @@ RSpec.describe Car do
 
   describe "Attributes" do
     it { :speed }
+  
+
   end
 
   describe "Methods" do

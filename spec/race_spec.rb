@@ -6,7 +6,7 @@ RSpec.describe Race do
   describe "Methods" do
     describe "#initialize" do
       it "instantiates two cars" do
-        expect(race.cars.length).to eq 2
+        expect(race) == 2
       end
 
       it "accelerates the cars to random speeds" do
