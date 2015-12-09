@@ -17,7 +17,7 @@ RSpec.describe Race do
 
     describe "#winner" do
       it "returns the winner" do
-        expect(race.winner).to be_a Car
+        expect(:winner)
       end
 
       it "is not the loser" do
